@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+tools:context=".ui.profile.ProfileFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:background="@drawable/bg_profile">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_profile"
+            app:srcCompat="@drawable/buketik"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/Circular"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_profile"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_profile"
+            app:cardCornerRadius="15dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@drawable/bg_profile"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Avgustinigro"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="info"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#79D6D1D1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:width="0dp"
+                        android:gravity="center"
+                        android:text="geektech"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#79D6D1D1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:width="0dp"
+                        android:gravity="center"
+                        android:text="android"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#79D6D1D1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:width="0dp"
+                        android:gravity="center"
+                        android:text="group_47"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_about_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="150dp"
+        android:text="made_by_avgustine_chynarbekov"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_about_me"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="130dp"
+
+        android:text="github.com/NPaugust"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" >
+
+    </TextView>
+
+</RelativeLayout>

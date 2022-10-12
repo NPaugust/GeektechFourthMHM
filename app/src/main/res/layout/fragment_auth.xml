@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/bg_profile"
+    tools:context=".ui.auth.AuthFragment">
+    <TextView
+        android:id="@+id/title_auth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="-20dp"
+        android:text="Registration"
+        android:inputType="phone"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/title_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:text="please_follow_the_instructions_below_to_register"
+        android:textSize="12sp"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/teal_700"
+        android:hint="Enter phone number"
+        android:autofillHints="" />
+
+
+
+    <Button
+        android:id="@+id/btnGetCode"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"/>
+
+    <EditText
+        android:id="@+id/editSMS"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:hint="Enter SMS code"
+        android:autofillHints="
+" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="CONTINUE" />
+</LinearLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "387159592213",
+    "project_id": "taskapp-adb38",
+    "storage_bucket": "taskapp-adb38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387159592213:android:fcb8102b79ee40cc7ced1c",
+        "android_client_info": {
+          "package_name": "com.example.fourthmfirsthm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387159592213-1f5u3jum5clhj5picoslitd1vc4vdb20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6JQRF-vmzYLn4apI02fLgZ2HDYHwqVuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387159592213-1f5u3jum5clhj5picoslitd1vc4vdb20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387159592213:android:f0a66a500f5243397ced1c",
+        "android_client_info": {
+          "package_name": "com.example.geektechhwm4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387159592213-1f5u3jum5clhj5picoslitd1vc4vdb20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6JQRF-vmzYLn4apI02fLgZ2HDYHwqVuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387159592213-1f5u3jum5clhj5picoslitd1vc4vdb20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
